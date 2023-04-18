@@ -2,7 +2,7 @@ package 구현;
 
 import java.util.Scanner;
 
-public class FourSide {
+public class A_FourSide {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
