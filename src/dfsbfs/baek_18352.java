@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+//BFS
 public class baek_18352 {
 
     public static int n,m,k,x;
@@ -28,7 +28,7 @@ public class baek_18352 {
         for (int i = 0; i < m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            graph.get(a).add(b);
+            graph.get(a).add(b); //단방향 도로
         }
 
         //출발 도시 까지 거리는 0
